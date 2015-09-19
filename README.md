@@ -86,7 +86,7 @@ Add it to your .emacs:
         (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 
 5. Create symbolic link to slime-js.el in the contrib subdirectory of
-SLIME project.
+SLIME project. Create slime-js.elc by running (byte-compile-file "/path/to/symlink/slime-js.el")
 
 6. Install [js2-mode](http://code.google.com/p/js2-mode/) into emacs from
    http://tromey.com/elpa/
